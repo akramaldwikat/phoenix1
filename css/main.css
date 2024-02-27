@@ -564,6 +564,10 @@ header .headerBottom .headerBottomMobile {
     gap: 5px;
 }
 
+[dir="rtl"] .aboutUs .about .more {
+    align-items: flex-end;
+}
+
 .aboutUs .about .more:hover {
     color: var(--main-color);
 }
@@ -968,6 +972,10 @@ header .headerBottom .headerBottomMobile {
     align-items: center;
     justify-content: center;
     gap: 5px;
+}
+
+[dir="rtl"] .news .new .card .card-body .card-link {
+    align-items: flex-end;
 }
 
 .news .new:hover .card .card-body .card-link {
