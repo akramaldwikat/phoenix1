@@ -1026,6 +1026,7 @@ header .headerBottom .headerBottomMobile {
 .slick-slider .slick-list,
 .slick-slider .slick-track {
     padding: 15px 0;
+    direction: ltr;
 }
 
 .slider .slick-slider .slick-list,
